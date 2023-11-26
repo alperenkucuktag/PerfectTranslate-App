@@ -1,4 +1,4 @@
-# Tranlate App
+# Translate App
 
 # KÜtüphaneler
 
