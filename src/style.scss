@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&family=Anton&family=Gugi&family=Lato:wght@100;300;400;700;900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Sofia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+  
+}
+
+body{
+    height: 50vh;
+    overflow: hidden;
+    font-family: "Poppins";
+    overflow: scroll;
+}
+#main-page{
+    height:220vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 80vw;
+    max-width: 1100px;
+    max-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: max-content;
+    
+    h2{
+        text-align: center;
+        font-size: 35px;
+        @media (max-width:800){
+            font-size: 30px;
+            max-height: max-content;
+           
+        }
+    }
+}
+.upper{
+    display:flex;
+    gap: 10px;
+    margin-top: 50px;
+  .select{
+    flex: 1;
+    color: black;
+  }
+}
+.center{
+    display: flex;
+    gap: 105px;
+    margin-top: 20px;
+    @media (max-width:800px){
+     flex-direction: column;
+     gap: 10px; 
+     
+    }
+    textarea{
+       flex: 1;
+       min-height: 300px;
+       max-height: 500px;
+       padding: 10px; 
+       font-family: "Poppins";
+       font-size: 19px;
+
+       &:disabled{
+        background:rgb(66, 66, 66);
+        color:rgb(199, 199, 199);
+       }
+    }
+
+}
+.loading{
+    background-image:url("./ZZ5H.gif") !important;
+    background-size: contain !important;
+    background-position: center !important ;
+    
+}   
+
+#translate-btn{
+    margin-top: 20px;
+    
+}
