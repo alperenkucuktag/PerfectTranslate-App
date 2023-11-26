@@ -30,4 +30,4 @@
 
 <h1>Screen gif</h1>
 
-![](translate.gif)
+<img src='translate.gif'/>)
