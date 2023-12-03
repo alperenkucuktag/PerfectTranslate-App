@@ -30,4 +30,4 @@
 
 <h1>Screen gif</h1>
 
-<img src='translate.gif'/>
+<img src='./translate.gif'/>
